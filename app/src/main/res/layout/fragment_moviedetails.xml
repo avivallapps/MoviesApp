@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/relayout2">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/movie_image"
+                    />
+
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/ProgsressDialog"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textSize="30sp"
+                android:layout_toRightOf="@id/relayout2"
+                android:layout_margin="20dp"
+                android:id="@+id/movie_title"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1900"
+                android:textSize="25sp"
+                android:layout_below="@id/relayout2"
+                android:layout_margin="20dp"
+                android:id="@+id/movie_realeaseYear"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.0"
+                android:textSize="25sp"
+                android:layout_below="@id/movie_realeaseYear"
+                android:layout_margin="20dp"
+                android:id="@+id/movie_rating"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="balblalba"
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:layout_below="@id/movie_rating"
+                android:id="@+id/movie_genre"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
